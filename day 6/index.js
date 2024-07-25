@@ -26,6 +26,11 @@ const arr2=[1,24,53,54,25,75,445,24,76,24,667]
 const newArray1=arr2.filter((val)=>val%2==0)
 console.log(newArray1)
 
+const newArr=[1,23,45,6,3,23,53]
+const result=newArr.reduce((prevVal,currentVal)=>{
+    return prevVal+currentVal
+})
+console.log(result)
 // const arr3=[12,24,53,54,25,75,24,76,24]
 
 // const newArray2=arr3.reduce((1,arr3.length,0,[])=>{})
