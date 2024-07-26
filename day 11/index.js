@@ -20,7 +20,7 @@ promiseOne.then((bool) => {
 })
 
 
-using promise
+// using promise
 fetch('https://api.github.com/users/akhtartatariya')
 .then((response)=>{
     return response.json()
